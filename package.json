@@ -1,6 +1,7 @@
 {
     "scripts": {
-        "start": "npx babel ./src --out-dir dist --watch"
+        "start": "npx babel ./src --out-dir dist --watch",
+        "build": "npx babel ./src --out-dir dist"
     },
     "devDependencies": {
         "@babel/cli": "^7.21.0",
